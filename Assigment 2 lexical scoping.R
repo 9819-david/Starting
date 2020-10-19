@@ -1,3 +1,8 @@
+#Here we are going to make a function 
+#that is going to give us the inverse of a matrix
+
+#1. we are going to create a function to set and get the matrix
+
 makeVector <- function(x = matrix()) {
     m <- NULL
     set <- function(y) {
@@ -12,6 +17,7 @@ makeVector <- function(x = matrix()) {
          getInverse = getInverse)
 }
 
+#2. the next function is going to calculate the inverse of the matrix 
 
 cachesolve <- function(x, ...) {
     m <- x$getInverse()
